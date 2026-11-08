@@ -249,7 +249,7 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/yamada-kd/binds-training/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/caramelazuki/binds-training/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
@@ -273,7 +273,7 @@ const thebe_selector_output = ".output, .cell_output"
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/yamada-kd/binds-training/blob/main/notebook/tensorflow_01.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/caramelazuki/binds-training/blob/main/notebook/tensorflow_01.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -921,7 +921,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p><span class="math notranslate nohighlight">\(x_0=1.6\)</span></p>
 <p>この関数の極小値を見つけたいのです．これは解析的に解くのはとても簡単で，括弧の中が0になる値，すなわち <span class="math notranslate nohighlight">\(x\)</span> が <span class="math notranslate nohighlight">\(-1\)</span> のとき，極小値 <span class="math notranslate nohighlight">\(y=1\)</span> です．</p>
 <p>最急降下法で解くと，以下の図のようになります．最急降下法は解析的に解くことが難しい問題を正解の方向へ少しずつ反復的に動かしていく方法です．</p>
-<a class="reference internal image-reference" href="https://github.com/yamada-kd/binds-training/blob/main/image/gradientDescent.svg?raw=1"><img alt="https://github.com/yamada-kd/binds-training/blob/main/image/gradientDescent.svg?raw=1" src="https://github.com/yamada-kd/binds-training/blob/main/image/gradientDescent.svg?raw=1" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="https://github.com/caramelazuki/binds-training/blob/main/image/gradientDescent.svg?raw=1"><img alt="https://github.com/caramelazuki/binds-training/blob/main/image/gradientDescent.svg?raw=1" src="https://github.com/caramelazuki/binds-training/blob/main/image/gradientDescent.svg?raw=1" style="width: 100%;" /></a>
 <p>これを TensorFlow を用いて実装すると以下のようになります．出力中，<code class="docutils literal notranslate"><span class="pre">Objective</span></code> は目的関数の値，<code class="docutils literal notranslate"><span class="pre">Solution</span></code> はその時点での解です．最終的に <span class="math notranslate nohighlight">\(x=-0.9912\simeq-1\)</span> のとき，最適値 <span class="math notranslate nohighlight">\(y=1\)</span> が出力されています．</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">

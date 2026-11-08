@@ -16,7 +16,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/yamada-kd/binds-training/tree/main/notebook
+  url: https://github.com/caramelazuki/binds-training/tree/main/notebook
   branch: main
 
 

@@ -248,7 +248,7 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/yamada-kd/binds-training/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/caramelazuki/binds-training/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
@@ -272,7 +272,7 @@ const thebe_selector_output = ".output, .cell_output"
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/yamada-kd/binds-training/blob/main/notebook/worksheet.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/caramelazuki/binds-training/blob/main/notebook/worksheet.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -1013,7 +1013,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="id15">
 <h3>3-5 強化学習法の実装<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
 <p>以下のような 5 行 9 列の行列を考えます．このグリッドワールド上で何らかのオブジェクト動かしてゴール（G）を目指すこととします．オブジェクトはフィールド上のグリッド線で囲まれたどこかの位置に存在できることとします．オブジェクトは上下左右に動かせるものとします．ただし，フィールドは壁に囲まれており，オブジェクトはこのグリッドワールドの外には出られません．また，フィールドには障害物（X）があり，障害物が存在する位置にオブジェクトは行けないこととします．オブジェクトは最初ゴールでも障害物でもないオブジェクトが移動可能なマス（S）に位置しているものとします．このオブジェクトをうまく移動させてゴールまで導くエージェントを何らかの強化学習法を用いて作ってください．</p>
-<a class="reference internal image-reference" href="https://github.com/yamada-kd/binds-training/blob/main/image/largeField.svg?raw=1"><img alt="https://github.com/yamada-kd/binds-training/blob/main/image/largeField.svg?raw=1" src="https://github.com/yamada-kd/binds-training/blob/main/image/largeField.svg?raw=1" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="https://github.com/caramelazuki/binds-training/blob/main/image/largeField.svg?raw=1"><img alt="https://github.com/caramelazuki/binds-training/blob/main/image/largeField.svg?raw=1" src="https://github.com/caramelazuki/binds-training/blob/main/image/largeField.svg?raw=1" style="width: 100%;" /></a>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python3</span>
