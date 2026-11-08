@@ -249,7 +249,7 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/yamada-kd/binds-training/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/caramelazuki/binds-training/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
@@ -273,7 +273,7 @@ const thebe_selector_output = ".output, .cell_output"
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/yamada-kd/binds-training/blob/main/notebook/tensorflow_05.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/caramelazuki/binds-training/blob/main/notebook/tensorflow_05.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -521,10 +521,10 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p>最初のひとつは学習全体を通して考えると人工知能のパラメータの方で解決できるし，ふたつ目も非線形な関数を近似できる人工知能を使えば解決できるため，回避できない問題とは思えませんが．</p>
 <p>これとは別のエンコード方法として，ワンホットエンコーディングがあります．ワンホットエンコーディングはワンホットベクトルに単語を対応させます．ワンホットベクトルとは，ベクトルのある要素が 1 で他の全要素が 0 であるベクトルです．以下のような感じです．</p>
-<a class="reference internal image-reference" href="https://github.com/yamada-kd/binds-training/blob/main/image/oneHotEmbedding.svg?raw=1"><img alt="https://github.com/yamada-kd/binds-training/blob/main/image/oneHotEmbedding.svg?raw=1" src="https://github.com/yamada-kd/binds-training/blob/main/image/oneHotEmbedding.svg?raw=1" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="https://github.com/caramelazuki/binds-training/blob/main/image/oneHotEmbedding.svg?raw=1"><img alt="https://github.com/caramelazuki/binds-training/blob/main/image/oneHotEmbedding.svg?raw=1" src="https://github.com/caramelazuki/binds-training/blob/main/image/oneHotEmbedding.svg?raw=1" style="width: 100%;" /></a>
 <p>この方法は非効率的です．ワンホットベクトルはとても疎です．ボキャブラリに 10000 個の単語がある場合，各ベクトルはその要素の 99.99% が 0 からなります．学習を効率よく進めるためには多くの重みパラメータを設定しなければならないことになるでしょう．また，入力ベクトルが場合によってはものすごく長くなるでしょう．</p>
 <p>現在のところ最も良い方法と考えられるのは単語埋め込み（word embedding）です．単語埋め込みを利用すると似たような単語が似たようなベクトルへとエンコードされます（学習の過程で）．埋め込みは浮動小数点数で行い，密なベクトルができます．以下のような感じです．</p>
-<a class="reference internal image-reference" href="https://github.com/yamada-kd/binds-training/blob/main/image/floatEmbedding.svg?raw=1"><img alt="https://github.com/yamada-kd/binds-training/blob/main/image/floatEmbedding.svg?raw=1" src="https://github.com/yamada-kd/binds-training/blob/main/image/floatEmbedding.svg?raw=1" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="https://github.com/caramelazuki/binds-training/blob/main/image/floatEmbedding.svg?raw=1"><img alt="https://github.com/caramelazuki/binds-training/blob/main/image/floatEmbedding.svg?raw=1" src="https://github.com/caramelazuki/binds-training/blob/main/image/floatEmbedding.svg?raw=1" style="width: 100%;" /></a>
 </div>
 <div class="section" id="id4">
 <h3><span class="section-number">8.1.3. </span>入出力データ形式<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
